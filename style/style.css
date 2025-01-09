@@ -51,4 +51,36 @@ nav li a{
     text-decoration: none;
     font-size: 20px;
 }
+/* header */
+    .header{background-image: url(../images/developer.png), url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;    
+}
 
+/* Banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+max-width: 580px;
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{  
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-discription{
+    font-size: 18px;
+    color: #474747;
+
+}
+.banner-profile-pic{    
+    width: 580px;
+
+}
