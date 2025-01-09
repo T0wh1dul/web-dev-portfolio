@@ -13,8 +13,14 @@
 .text-primary{
     color: #fd6e0a;
 }
+.secondary-bg{
+    background-color:#FFF8F3 ;
+}
 .dark-2{
     color: #474747;
+}
+.dark-3{
+    color: #757575;
 }
 .btn-primary{
     background: #fd6e0a;
@@ -24,6 +30,12 @@
     border-radius: 5px;
     font-size: 20px;
     border: none;
+}
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
 }
 
 /* Nav styles */
@@ -83,4 +95,37 @@ max-width: 580px;
 .banner-profile-pic{    
     width: 580px;
 
+}
+
+/* main / section part */
+.section-discription{
+    font-size: 18px;
+    /* text-align: center; */
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: auto;
+   
+}
+
+/* about style under main */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-title{
+    font-size: 20px;
+    color: #757575
+}
+.item-discription{
+    font-weight: bold;
+    font-size: 20px;
+    color: #474747;
 }
