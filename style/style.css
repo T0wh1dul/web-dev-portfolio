@@ -194,9 +194,15 @@ footer input[type="text"], footer input[type="email"], footer textarea
     height: 64px;
     border-radius: 5px;
     background-color:white ;
-    width: 70%;
+    width: 100%;
     padding: 10px 30px ;
     margin-bottom: 24px;
     border: none;
     color: #757575;
+}
+.btn-submit{
+    /* height: 64px; */
+    text-align: left;
+    margin: 10px;
+    
 }
